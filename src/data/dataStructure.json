@@ -4,7 +4,7 @@
     "category": "enumType<normal | rare | legendary>",
     "type": "enumType<diesel | gasoline | electric | hybrid>",
     "color": "string",
-    "asientos": "number",
+    "passengers": "number",
     "year": "number",
     "price": "number",
     "avaialble": "boolean",
