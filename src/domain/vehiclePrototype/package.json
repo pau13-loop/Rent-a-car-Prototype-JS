@@ -1,0 +1,17 @@
+{
+  "name": "vehicle",
+  "version": "1.0.0",
+  "description": "Package that defines the properties and the methods for the object vehicle",
+  "main": "vehicle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pau Llinas Amat",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
