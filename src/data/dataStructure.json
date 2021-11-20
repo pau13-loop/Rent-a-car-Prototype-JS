@@ -1,7 +1,7 @@
 {
-    "model": "string",
-    "brand": "enumType<citroen | renault | wolksvagen | skoda>",
-    "category": "enumType<normal | rare | legendary>",
+    "model": "string", 
+    "brand": "enumType<seat | renault | wolksvagen | ford>",
+    "category": "enumType<normal | classic | van | premium>",
     "type": "enumType<diesel | gasoline | electric | hybrid>",
     "color": "string",
     "passengers": "number",
