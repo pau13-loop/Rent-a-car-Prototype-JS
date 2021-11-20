@@ -4,7 +4,8 @@
   "description": "Rent a car app",
   "main": "./src/main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "main": "node ./src/main.js"
   },
   "repository": {
     "type": "git",
