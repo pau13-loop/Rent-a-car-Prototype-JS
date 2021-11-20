@@ -1,0 +1,27 @@
+{
+  "name": "rent-a-car-prototype-js",
+  "version": "1.0.0",
+  "description": "Rent a car app",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pau13-loop/Rent-a-car-Prototype-JS.git"
+  },
+  "keywords": [
+    "Prototype",
+    "JS",
+    "jest"
+  ],
+  "author": "Pau Llinas Amat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pau13-loop/Rent-a-car-Prototype-JS/issues"
+  },
+  "homepage": "https://github.com/pau13-loop/Rent-a-car-Prototype-JS#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
