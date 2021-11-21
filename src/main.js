@@ -1,6 +1,10 @@
 // IMPORTS
 var Seat = require('./domain/vehicleBrands/seat');
 
+// Utilizando .cal()
+var seatCupra = new Seat('Cupra', 4)
+console.log('Seat Cupra with .cal(): ', seatCupra);
+
 // Create vehicle from Seat brand of type Vehicle
 var seatCupra = Object.create(Seat);
 
@@ -10,7 +14,8 @@ var seatCupra = Object.create(Seat);
 
 
 // Print Seat Cupra
-console.log(seatCupra.showModel());
+// console.log(seatCupra.showModel());
+console.log(seatCupra);
 
 
 
