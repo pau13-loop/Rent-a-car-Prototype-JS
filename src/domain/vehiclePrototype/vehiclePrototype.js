@@ -1,6 +1,6 @@
-var Vehicle = function(category) {
+var Vehicle = function(model, passengers) {
     this.model = "modelo nuevo";
-    this.category = category;
+    this.passengers = passengers;
 }
 
 Vehicle.prototype.showModel = function() {
@@ -11,8 +11,8 @@ Vehicle.prototype.showModel = function() {
 //     console.log("Brand: " + this.brand);
 // }
 
-Vehicle.prototype.category = function() {
-    console.log("Category: " + this.category);
+Vehicle.prototype.passengers = function() {
+    console.log("Passengers: " + this.passengers);
 }
 
 var factory = (function singleVehicle() {
@@ -25,3 +25,4 @@ var factory = (function singleVehicle() {
 })()
 
 exports.singletonVehicle = factory;
+exports.module = Vehicle;
