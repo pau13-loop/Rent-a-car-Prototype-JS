@@ -1,14 +1,14 @@
 // Import vehicle 
-var importVehicle = require('./../vehiclePrototype/vehiclePrototype');
+// var importVehicle = require('./../vehiclePrototype/vehiclePrototype');
 
-// Get instance vehicle
-var factoryVehicle = importVehicle.singletonVehicle;
-var vehicle = factoryVehicle.getVehicle();
+// // Get instance vehicle
+// var factoryVehicle = importVehicle.singletonVehicle;
+// var vehicle = factoryVehicle.getVehicle();
 
-var seat = vehicle;
+var commonCategory = require('./../vehicleCategories/commonCategory');
+var inherit = require('./../inheritance/inheritObject');
 
-seat.assignNumPassegengers = function() {
-    console.log("Passengers num: ", + this.passengers);
-}
+var seat = inherit(commonCategory);
+seat.brand = "seat"
 
 module.exports = seat;

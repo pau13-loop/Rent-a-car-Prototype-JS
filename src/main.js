@@ -1,12 +1,38 @@
 // IMPORTS
-var seat = require('./domain/vehicleBrands/seat');
+var Seat = require('./domain/vehicleBrands/seat');
 
 // Create vehicle from Seat brand of type Vehicle
-var SeatCupra = Object.create(seat);
+var seatCupra = Object.create(Seat);
 
 // Set props for "Seat Cupra"
-SeatCupra.model = "Seat Cupra";
-SeatCupra.passengers = 5;
+// seatCupra.model = "Seat Cupra";
+// seatCupra.category = "diesel";
+
 
 // Print Seat Cupra
-console.log(SeatCupra);
+console.log(seatCupra.showModel());
+
+
+
+// var importVehicle = require('./domain/vehiclePrototype/vehiclePrototype');
+// var factoryVehicle = importVehicle.singletonVehicle;
+
+// var seat = factoryVehicle.getVehicle();
+// var ford = factoryVehicle.getVehicle();
+
+// seat = {
+//     model: "Leaon",
+//     brand: "Seat",
+//     category: "Diesel"
+// }
+
+// ford = {
+//     model: "Focus",
+//     brand: "Ford",
+//     category: "Gasoline"
+// }
+
+// console.log(ford === seat);
+
+// console.log("Seat model: ", seat);
+// console.log("Ford model: ", ford);
